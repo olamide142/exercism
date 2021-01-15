@@ -21,8 +21,3 @@ def personal_top_three(scores):
     n = scores[len(scores)-3:]
     n.reverse()
     return n
-
-
-print(latest([1,90,3,5,78,6,4,3]))
-print(personal_best([13,53,35,45,65,76.88,34,14]))
-print(personal_top_three([13,53,35,45,65,76.88,34,14]))
